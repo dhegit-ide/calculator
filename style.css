@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    background: #E1E7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 400px;
+    margin: 100px auto;
+    background: #1A201E;
+    box-shadow: 0px 20px 40px rgba(26, 32, 30, 0.2);
+    border-radius: 10px;
+}
+
+.calculator-screen {
+    width: 100%;
+    color: white;
+    border-bottom: 4px solid #FE0000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #1A201E;
+    text-align: right;
+    font-size: 60px;
+    padding: 50px 25px 30px 25px;
+}
+
+.result {
+    margin-top: 30px;
+    font-size: 60px;
+}
+
+.calculator-keys {
+    width: 100%;
+    margin: auto 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+button {
+    width: 21%;
+    font-size: 24px;
+    height: 80px;
+    color: #D1D2D2;
+    background: #1A201E;
+    border: none;
+}
+
+.all-clear,
+.operator,
+.percentage,
+.decimal {
+    color: #8C8F8E;
+}
+
+.percentage {
+    font-size: 22px;
+}
+
+.equal-sign {
+    font-weight: bold;
+    color: #FE0000;
+}
+
+button:hover {
+    font-weight: 700;
+    color: white;
+    transition: all 0.3s;
+}
